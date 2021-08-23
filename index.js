@@ -98,7 +98,7 @@ gsap.from('.logo', {
 //     }
 // })
 
-gsap.to('.rocket', {
+gsap.to('#rocketOne', {
     x: "+= 250%",
     y: "+= -300",
     rotate: 45,
@@ -112,7 +112,7 @@ gsap.to('.rocket', {
     }
 })
 
-gsap.to('.rocketTwo', {
+gsap.to('#rocketTwo', {
     x: "+= -500%",
     y: "+= 300",
     opacity: 1,

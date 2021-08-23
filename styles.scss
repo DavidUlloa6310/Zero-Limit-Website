@@ -82,17 +82,17 @@ header {
 .rocket {
     position: absolute;
     width: 20%;
+}
+
+#rocketOne {
     top: 300px;
     right: 300px;
 }
 
-.rocketTwo {
-    position: absolute;
-    transform: rotate(200deg); 
-    z-index: 0;
-    width: 20%;
+#rocketTwo {
+    transform: rotate(200deg);
     top: 0;
-    right: -30%;
+    right: -30%; 
 }
 
 .about-us {

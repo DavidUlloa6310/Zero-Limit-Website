@@ -115,16 +115,16 @@ header ul {
 .rocket {
   position: absolute;
   width: 20%;
+}
+
+#rocketOne {
   top: 300px;
   right: 300px;
 }
 
-.rocketTwo {
-  position: absolute;
+#rocketTwo {
   -webkit-transform: rotate(200deg);
           transform: rotate(200deg);
-  z-index: 0;
-  width: 20%;
   top: 0;
   right: -30%;
 }
