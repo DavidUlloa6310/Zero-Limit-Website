@@ -8,7 +8,6 @@ body {
     justify-content: center;
     background-color: black;
     color: white;
-    overflow-x: hidden;
 }
 
 header {
@@ -38,9 +37,11 @@ header {
     background-image: url("images/background.jpg");
     background-position: 100% 100%;
     min-height: 100vh;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .white-section {
@@ -87,11 +88,11 @@ header {
 
 .rocketTwo {
     position: absolute;
-    width: 20%;
-    left: 110%;
-    top: 100%;
     transform: rotate(200deg); 
     z-index: 0;
+    width: 20%;
+    top: 0;
+    right: -30%;
 }
 
 .about-us {
